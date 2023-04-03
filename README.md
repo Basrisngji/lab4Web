@@ -104,7 +104,7 @@ $result = mysqli_query($conn, $sql);
 
 <?php require('footer.php'); ?>
 ```
-Ini adalah tampilan home<p>
+## Ini adalah tampilan home
 ![Gambar 1](screenshoot/1.png)
 Buat file baru dengan nama about.php<p>
 ```
@@ -117,7 +117,7 @@ Buat file baru dengan nama about.php<p>
 </div>
 <?php require('footer.php'); ?>
 ```
-Ini adalah tampilan about<p>
+## Ini adalah tampilan about
 ![Gambar 2](screenshoot/2.png)
 
 Buat file baru dengan nama kontak.php<p>
@@ -136,6 +136,7 @@ Buat file baru dengan nama kontak.php<p>
 </div>
 <?php require('footer.php'); ?>
 ```
+## Ini adalah tampilan kontak
 ![Gambar 3](screenshoot/3.png)
 Buat file baru dengan nama index.php<p>
 ```
