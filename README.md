@@ -9,7 +9,8 @@
 
 ## Langkah-langkah Praktikum
 Buat file baru dengan nama header.php<p>
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -31,7 +32,8 @@ Buat file baru dengan nama header.php<p>
         </nav>
 ```
 Buat file baru dengan nama footer.php<p>
-```<head><link href="style.css" rel="stylesheet" type="text/css"></head>
+```
+<head><link href="style.css" rel="stylesheet" type="text/css"></head>
 <footer>
     <p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p>
 </footer>
@@ -41,7 +43,8 @@ Buat file baru dengan nama footer.php<p>
 </html>
 ```
 Buat file baru dengan nama home.php<p>
-```<?php require('header.php'); ?>
+```
+<?php require('header.php'); ?>
 <div class="content">
     <h2>Ini Halaman Home</h2>
     <p>Ini adalah bagian content dari halaman.</p>
@@ -104,7 +107,8 @@ $result = mysqli_query($conn, $sql);
 Ini adalah tampilan home<p>
 ![Gambar 1](screenshoot/1.png)
 Buat file baru dengan nama about.php<p>
-```?php require('header.php'); ?>
+```
+?php require('header.php'); ?>
 <div class="container">
     <h2>About</h2>
     <div class="box">
@@ -117,7 +121,8 @@ Ini adalah tampilan about<p>
 ![Gambar 2](screenshoot/2.png)
 
 Buat file baru dengan nama kontak.php<p>
-```<?php require('header.php'); ?>
+```
+<?php require('header.php'); ?>
 <div class="container">
     <h2>Kontak</h2>
     <div class="box">
@@ -133,7 +138,8 @@ Buat file baru dengan nama kontak.php<p>
 ```
 ![Gambar 3](screenshoot/3.png)
 Buat file baru dengan nama index.php<p>
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -174,7 +180,8 @@ Buat file baru dengan nama index.php<p>
 </html>
 ```
 Langkah berikutnya adalah membuat file .htaccess<p>
-```<IfModule mod_rewrite.c>
+```
+<IfModule mod_rewrite.c>
  RewriteEngine On
  RewriteBase /lab4_php_modular/
  RewriteCond %{REQUEST_FILENAME} !-f
@@ -182,3 +189,4 @@ Langkah berikutnya adalah membuat file .htaccess<p>
  RewriteRule ^(.*)$ index.php?mod=$1 [L]
 </IfModule>
 ```
+## Terimakasih
